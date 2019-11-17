@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.main-nav li{
+	display: inline-block;
+}
+.main-nav li a{
+	color: black;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+}
+.main-nav li.active a{
+	border: 2px solid black;
+}
+.main-nav li a:hover {
+	border: 2px solid black;
+}
+.logo img{
+	  width: 90px;
+	  height: auto;
+	  float: left;
+	  margin-left: 80px;
+	  margin-top: 35px;
+}
+.row{
+	max-width: 1400px;
+	margin: auto;
+}
+.banner{
+	width: 80%;
+	height: 70%;
+	top: 37%;
+    text-align: center;
+	left: 490px;
+	position: absolute;
+	color: #000;
+	font-size: 70px;
+}
+.app-text{
+	width: 50%;
+	float: center;
+}
+.button{
+	position: absolute;
+	margin-top: 440px;
+	margin-left: 660px;
+}
+.btn{
+	border: 2px solid white;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+.btn-one{
+	background-color: darkorange;
+	font-family: "Roboto", sans-serif;
+}
+.btn-two{
+	font-family: "Roboto", sans-serif;
+}
+.btn-two:hover{
+	background-color: darkorange;
+	transition: all 0.2s ease-in; 
+}
